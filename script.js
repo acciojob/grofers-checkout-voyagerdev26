@@ -10,6 +10,7 @@ const getSum = () => {
 		totalPrice+=+t.innerText;
 	}
 	let tr=document.createElement("tr");
+	tr.id="ans";
 	let t1=document.createElement("td");
 	let t2=document.createElement("td");
 	t1.innerText="TotalPrice";
